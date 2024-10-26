@@ -2,7 +2,9 @@
 import postgres from 'postgres'
 
 // see env variables in .env
-import {PGCONNECT} from '$env/static/private';
+//import {PGCONNECT} from '$env/static/private';
+const PGCONNECT=process.env.PGCONNECT;
+console.log("connectis>"+PGCONNECT+"<");
 
 const sql = postgres(PGCONNECT, {} )
 
