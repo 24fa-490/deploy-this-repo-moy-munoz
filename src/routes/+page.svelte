@@ -24,3 +24,5 @@
         font-style: italic;
     }
 </style>
+<a href="/brucetest2">Check out the new page</a>
+<a href="/brucetest3">Check out the new page</a>
